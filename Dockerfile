@@ -1,4 +1,4 @@
-FROM dolmades/dolmades-docker:base
+FROM dolmades/base
 
 MAINTAINER Stefan Kombrink
 
