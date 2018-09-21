@@ -1,4 +1,4 @@
-FROM dolmades/base
+FROM dolmades/base:1.0
 
 MAINTAINER Stefan Kombrink
 
