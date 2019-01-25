@@ -14,4 +14,4 @@ RUN mkdir -p /opt/wine-stable/share/wine/gecko && cd /opt/wine-stable/share/wine
     wget http://dl.winehq.org/wine/wine-gecko/2.47/wine_gecko-2.47-x86_64.msi
 # install & update winetricks
 #COPY winetricks.deb /winetricks.deb
-RUN apt-get update && apt-get install -y binutils cabextract p7zip unzip && winetricks --self-update && apt-get clean && rm -rf /var/lib/apt/lists/*
+#RUN apt-get update && apt-get install -y binutils cabextract p7zip unzip && winetricks --self-update && apt-get clean && rm -rf /var/lib/apt/lists/*
